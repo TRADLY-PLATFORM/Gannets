@@ -50,7 +50,7 @@ For fitness marketplace, this are the general information you can configure
 
 
 ### Listings
-<Listings/>
+
 Example categories and attributes you could create for fitness marketplace. 
 
 
@@ -59,5 +59,4 @@ Get fitness marketplace from marketplace collection around the world.
 ## Building blocks of Fitness Marketplace
 These below are the common blocks for every sort of marketplaces. 
 
-<Roles/>
 

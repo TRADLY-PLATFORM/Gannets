@@ -5,18 +5,23 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Tradly - Building App Guides',
   tagline: 'Easy to understand templates',
-  url: 'https://guides.tradly.app',
+  url: 'https://templates.tradly.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'TRADLY-PLATFORM', // Usually your GitHub org/user name.
+  projectName: 'Gannets', // Usually your repo name.
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'UA-143764314-1',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     navbar: {
-      title: 'My Site',
+      title: 'Templates ',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Tradly Platform Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -28,8 +33,8 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://www.youtube.com/playlist?list=PLiKQzSFReAziYUvOKfUPxglX-HOhWabVi',
+          label: 'Videos',
           position: 'right',
         },
       ],
@@ -38,41 +43,36 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Submit',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Technical Enquiry',
+              href: 'https://community.tradly.app',
+            },
+            {
+              label: 'Submit Bug',
+              href: 'https://tradly.atlassian.net/servicedesk/customer/portals',
+            },
+            {
+              label: 'Feature Request',
+              href: 'https://community.tradly.app',
             },
           ],
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
+          title: 'Important Links',
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              to: 'blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'API Reference',
+              href: 'https://developer.tradly.app/',
+            },
+            {
+              label: 'Video Tutorials',
+              href: 'https://www.youtube.com/playlist?list=PLiKQzSFReAziYUvOKfUPxglX-HOhWabVi',
             },
           ],
         },

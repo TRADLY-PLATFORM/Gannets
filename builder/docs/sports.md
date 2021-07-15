@@ -10,7 +10,6 @@ import Accounts from '../docs/components/accounts.mdx'
 
 ## Roles 
 
-<Roles/>
+
 
 ## Accounts
-<Accounts/>
