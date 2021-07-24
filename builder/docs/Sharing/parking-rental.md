@@ -1,6 +1,6 @@
 ---
 id: parking-rental
-title: parking Rental 
+title: Parking Rental 
 description: Using Tradly, Launch your parking rental maketplace in weeks. Comes with pre-built apps + robust set of APIs. 
 ---
 

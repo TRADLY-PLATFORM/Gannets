@@ -1,12 +1,11 @@
 ---
 id: fitness-marketplace
-title: Fitness Marketplace Checklist
+title: Fitness
 description: How to develop an Fitness marketplace
 ---
 
-import Roles from '../docs/components/roles.mdx'
-import Accounts from '../docs/components/accounts.mdx'
-
+import Solutiontype from '../blocks/solutiontype.mdx'
+import accounts from '../blocks/accounts.mdx'
 
 If this is the first time, you are visiting Tradly, check our main website to know more about the solution https://tradly.app. 
 
